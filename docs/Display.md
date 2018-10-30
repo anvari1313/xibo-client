@@ -1,0 +1,53 @@
+# Display
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**display_id** | **int** | The ID of this Display | [optional] 
+**auditing_until** | **int** | Flag indicating whether this Display is recording Auditing Information from XMDS | [optional] 
+**display** | **str** | The Name of this Display | [optional] 
+**description** | **str** | The Description of this Display | [optional] 
+**default_layout_id** | **int** | The ID of the Default Layout | [optional] 
+**license** | **str** | The Display Unique Identifier also called hardware key | [optional] 
+**licensed** | **int** | A flag indicating whether this Display is licensed or not | [optional] 
+**logged_in** | **int** | A flag indicating whether this Display is currently logged in | [optional] 
+**last_accessed** | **int** | A timestamp in CMS time for the last time the Display accessed XMDS | [optional] 
+**inc_schedule** | **int** | A flag indicating whether the default layout is interleaved with the Schedule | [optional] 
+**email_alert** | **int** | A flag indicating whether the Display will send email alerts. | [optional] 
+**alert_timeout** | **int** | A timeout in seconds for the Display to send email alerts. | [optional] 
+**client_address** | **str** | The MAC Address of the Display | [optional] 
+**media_inventory_status** | **int** | The media inventory status of the Display | [optional] 
+**mac_address** | **str** | The current Mac Address of the Player | [optional] 
+**last_changed** | **int** | A timestamp indicating the last time the Mac Address changed | [optional] 
+**number_of_mac_address_changes** | **int** | A count of Mac Address changes | [optional] 
+**last_wake_on_lan_command_sent** | **int** | A timestamp indicating the last time a WOL command was sent | [optional] 
+**wake_on_lan_enabled** | **int** | A flag indicating whether Wake On Lan is enabled | [optional] 
+**wake_on_lan_time** | **str** | A h:i string indicating the time to send a WOL command | [optional] 
+**broad_cast_address** | **str** | The broad cast address for this Display | [optional] 
+**secure_on** | **str** | The secureOn WOL settings for this display. | [optional] 
+**cidr** | **str** | The CIDR WOL settings for this display | [optional] 
+**latitude** | **float** | The display Latitude | [optional] 
+**longitude** | **float** | The display longitude | [optional] 
+**version_instructions** | **str** | A JSON string representing the player installer that should be installed | [optional] 
+**client_type** | **str** | A string representing the player type | [optional] 
+**client_version** | **str** | A string representing the player version | [optional] 
+**client_code** | **int** | A number representing the Player version code | [optional] 
+**display_profile_id** | **int** | The display settings profile ID for this Display | [optional] 
+**current_layout_id** | **int** | The current layout ID reported via XMDS | [optional] 
+**screen_shot_requested** | **int** | A flag indicating that a screen shot should be taken by the Player | [optional] 
+**storage_available_space** | **int** | The number of bytes of storage available on the device. | [optional] 
+**storage_total_space** | **int** | The number of bytes of storage in total on the device | [optional] 
+**display_group_id** | **int** | The ID of the Display Group for this Device | [optional] 
+**current_layout** | **str** | The current layout | [optional] 
+**default_layout** | **str** | The default layout | [optional] 
+**display_groups** | [**list[DisplayGroup]**](DisplayGroup.md) | The Display Groups this Display belongs to | [optional] 
+**xmr_channel** | **str** | The Player Subscription Channel | [optional] 
+**xmr_pub_key** | **str** | The Player Public Key | [optional] 
+**last_command_success** | **int** | The last command success, 0 &#x3D; failure, 1 &#x3D; success, 2 &#x3D; unknown | [optional] 
+**device_name** | **str** | The Device Name for the device hardware associated with this Display | [optional] 
+**time_zone** | **str** | The Display Timezone, or empty to use the CMS timezone | [optional] 
+**tags** | [**list[Tag]**](Tag.md) | Tags associated with this Display | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
